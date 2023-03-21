@@ -8,13 +8,14 @@ import Counter from './components/Counter';
 import Names from './components/Names';
 import Input from './components/Input';
 import Twotext from './components/Twotext';
+import Validation from './components/Validation';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Twotext></Twotext>}> </Route>
+        <Route path='/' element={<Validation></Validation>}> </Route>
       </Routes>
       </BrowserRouter>
     </div>
